@@ -81,7 +81,7 @@ $(document).ready(function () {
 
     else if (userNumber > 10) {
         //execute some code
-        return "Hey hey, that's all the facts I can think of!";
+        return "You've got to talk to me in person to get more facts!";
       } 
   
     else {
