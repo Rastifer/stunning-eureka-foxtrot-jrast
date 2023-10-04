@@ -11,11 +11,6 @@ $(document).ready(function () {
       console.log("user number = ", userNumber);
       //let coolFactsOutput = generateCoolFacts(userNumber);
   
-      //console.log("name length f/n = ", nameLength(userName));
-  
-      //console.log("you clicked the button");
-      //console.log("from ln 12", generateCoolNameFacts(userName));
-  
       $("#coolFactsOutput").html(number(userNumber));
       $("#coolFactsOutputs").html(getCoolFact(userNumber));
     });
