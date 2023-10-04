@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* change the font to audiowide */
+body {
+    font-family: 'Audiowide', cursive;
+    background-color: aqua;
+}
+
+.image-container {
+    position: relative;
+}
+
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.card-body a {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: green;
+    }
